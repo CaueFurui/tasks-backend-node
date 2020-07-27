@@ -7,6 +7,8 @@ Back-end for the Tasks app, maded with node.js, just for studys, to run the proj
 
 To run this API you will need Node.js installed in your machine.
 
+Don't forget to change the "env_file" file to .env and add a new authSecret
+
 Once installed, go to the folder and run the following commands:
 
 1. ```yarn install```

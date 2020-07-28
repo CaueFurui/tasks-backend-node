@@ -17,7 +17,7 @@ module.exports = app => {
                     email: req.body.email.toLowerCase(),
                     password
                 })
-                .then(_ => res.status.send(204).send())
+                .then(_ => res.status(204).send())
                 .catch(err => res.status(500).json(err))
         })
     }
